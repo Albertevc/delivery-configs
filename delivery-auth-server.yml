@@ -25,8 +25,9 @@ security:
 
 spring:
     datasource:
+        initialization-mode:always
         data: classpath:/sql/data.sql
-        driver-class-name: com.mysql.jdbc.Driver
+        driver-class-name: com.mysql.cj.jdbc.Driver
         password: '#Aevc123'
         platform: mysql
         schema: classpath:/sql/schema.sql
