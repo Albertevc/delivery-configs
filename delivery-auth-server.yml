@@ -26,11 +26,11 @@ security:
 spring:
     datasource:
         data: classpath:/sql/data.sql
-        driver-class-name: com.mysql.cj.jdbc.Driver
+        driver-class-name: com.mysql.jdbc.Driver
         password: 'admin'
         platform: mysql
         schema: classpath:/sql/schema.sql
-        url: jdbc:mysql://localhost:3306/oauth?verifyServerCertificate=false&useSSL=false&requireSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+        url: jdbc:mysql://localhost:3306/oauth?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
         username: admin
     jpa:
         database-platform: org.hibernate.dialect.MySQLDialect
@@ -43,4 +43,4 @@ logging:
     root: INFO
     org.springframework.web: INFO
     com.howtodoinjava: INFO
-    org.hibernate: INFO
+    org.hibernate.SQL: INFO
