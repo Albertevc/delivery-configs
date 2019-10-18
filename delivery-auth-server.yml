@@ -38,3 +38,9 @@ spring:
         hibernate:
             ddl-auto: none
         show-sql: true
+logging:
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    com.howtodoinjava: INFO
+    org.hibernate: INFO
