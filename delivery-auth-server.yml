@@ -19,7 +19,7 @@ security:
             access-token-validity-seconds: 1800
             authorized-grant-types: password,refresh_token
             client-id: aevc
-            client-secret: teste123
+            client-secret: $2a$10$FbCxJvUAi1MMgQH0EJ344OE8pzu5n5y7VJuMiZVCFUjZ2/hnncNmK
             resource-ids: resources
             scope: read,write
 
